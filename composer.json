@@ -1,0 +1,28 @@
+{
+    "name": "wecomstore/wecomstore-jump",
+    "description": "适用于thinkphp6.0的跳转扩展",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "aler.gl",
+            "email": "974291@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0",
+        "topthink/think-view": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wecomstore\\": "src"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "wecomstore\\JumpService"
+            ]
+        }
+    }
+}
